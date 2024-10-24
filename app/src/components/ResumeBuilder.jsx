@@ -39,7 +39,7 @@ const ResumeBuilder = () => {
     setSelectedTemplate(selected);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => {//here change to editor mode and show the selected details
     e.preventDefault();
     setResumeVisible(true); // Show the resume after submitting
   };

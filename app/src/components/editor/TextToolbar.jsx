@@ -35,3 +35,5 @@ const TextToolbar = ({ selectedDiv, onChange }) => {
 };
 
 export default TextToolbar;
+//give user choice to put various components, from complete editable resume template to specific things like lines or tables
+//insert a hyperlink to a page, github or linkedin
