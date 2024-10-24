@@ -11,6 +11,10 @@ const LandingPage = () => {
     navigate("/resume-builder"); // Redirects to the Resume Builder page
   };
 
+  const handleGetEditor = () => {
+    navigate("/editor"); // Redirects to the Resume Builder page
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
@@ -32,6 +36,11 @@ const LandingPage = () => {
               <li>
                 <a href="#feedback" className="hover:underline">
                   Feedback
+                </a>
+              </li>
+              <li>
+                <a onClick={handleGetEditor} className="hover:underline">
+                  Editor
                 </a>
               </li>
             </ul>
